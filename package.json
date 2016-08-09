@@ -1,0 +1,19 @@
+{
+  "name": "weighin-test",
+  "version": "0.0.1",
+  "description": "Test weighin-cli and weighin-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/captbaritone/weighin-test.git"
+  },
+  "author": "Jordan Eldredge <jordan@jordaneldredge.com> (https://jordaneldredge.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/captbaritone/weighin-test/issues"
+  },
+  "homepage": "https://github.com/captbaritone/weighin-test#readme"
+}
