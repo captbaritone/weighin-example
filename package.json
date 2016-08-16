@@ -1,19 +1,20 @@
 {
-  "name": "weighin-test",
+  "name": "weighin-example",
   "version": "0.0.1",
-  "description": "Test weighin-cli and weighin-server",
+  "description": "An example application using Weighin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-test": "TRAVIS=1 TRAVIS_REPO_SLUG=captbaritone/weighin-example TRAVIS_BRANCH=master weighin < package.json",
+    "test": "weighin < package.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/captbaritone/weighin-test.git"
+    "url": "git+ssh://git@github.com/captbaritone/weighin-example.git"
   },
   "author": "Jordan Eldredge <jordan@jordaneldredge.com> (https://jordaneldredge.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/captbaritone/weighin-test/issues"
+    "url": "https://github.com/captbaritone/weighin-example/issues"
   },
-  "homepage": "https://github.com/captbaritone/weighin-test#readme"
+  "homepage": "https://github.com/captbaritone/weighin-example#readme"
 }
