@@ -4,8 +4,8 @@
   "description": "An example application using Weighin",
   "main": "index.js",
   "scripts": {
-    "test-test": "TRAVIS=1 TRAVIS_REPO_SLUG=captbaritone/weighin-example TRAVIS_BRANCH=master weighin < package.json",
-    "test": "weighin < package.json"
+    "test-test": "TRAVIS=1 TRAVIS_REPO_SLUG=captbaritone/weighin-example TRAVIS_BRANCH=master weighin < example.js",
+    "test": "weighin < example.js"
   },
   "repository": {
     "type": "git",
