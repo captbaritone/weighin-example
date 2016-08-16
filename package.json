@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/captbaritone/weighin-example/issues"
   },
-  "homepage": "https://github.com/captbaritone/weighin-example#readme"
+  "homepage": "https://github.com/captbaritone/weighin-example#readme",
+  "devDependencies": {
+    "weighin-cli": "0.0.1"
+  }
 }
