@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test-test": "TRAVIS=1 TRAVIS_REPO_SLUG=captbaritone/weighin-example TRAVIS_BRANCH=master weighin < example.js",
+    "test-test-pr": "TRAVIS=1 TRAVIS_REPO_SLUG=captbaritone/weighin-example TRAVIS_PULL_REQUEST=1 weighin < example.js",
     "posttest": "uglifyjs example.js --compress | weighin"
   },
   "repository": {
@@ -19,6 +20,6 @@
   "homepage": "https://github.com/captbaritone/weighin-example#readme",
   "devDependencies": {
     "uglify-js": "^2.7.1",
-    "weighin-cli": "0.0.1"
+    "weighin-cli": "0.0.2"
   }
 }
