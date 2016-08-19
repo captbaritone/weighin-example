@@ -22,6 +22,6 @@
   "homepage": "https://github.com/captbaritone/weighin-example#readme",
   "devDependencies": {
     "uglify-js": "^2.7.1",
-    "weighin-cli": "0.0.3"
+    "weighin-cli": "0.0.4"
   }
 }
