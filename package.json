@@ -6,7 +6,9 @@
   "scripts": {
     "test-test": "TRAVIS=1 TRAVIS_REPO_SLUG=captbaritone/weighin-example TRAVIS_BRANCH=master weighin < example.js",
     "test-test-pr": "TRAVIS=1 TRAVIS_REPO_SLUG=captbaritone/weighin-example TRAVIS_PULL_REQUEST=1 weighin < example.js",
-    "posttest": "uglifyjs example.js --compress | weighin"
+    "build": "uglifyjs example.js --compress -o example.min.js",
+    "test": "npm run build",
+    "posttest": "weighin < example.min.js"
   },
   "repository": {
     "type": "git",
